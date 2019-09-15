@@ -1,0 +1,51 @@
+html, body, p, ul, ol, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+.page-header {
+    background-color: beige;
+    padding:20px;
+}
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.front li{
+    display: inline;
+    padding: 0 15px;
+}
+.front a{
+    text-decoration: none;
+    color: black;
+    font-family:AvenirNext-Bold,sans-serif;
+    font-size: 15px;
+}
+a:hover{
+    color:red;
+}
+.container {
+    margin: 0;
+    max-width: 1000px;
+    position: relative;
+}
+.padd  img {
+    width:1349px;     
+}
+.padd h1 {
+    position: absolute;
+    width: 100%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 70px;
+    text-align: right;      
+}
